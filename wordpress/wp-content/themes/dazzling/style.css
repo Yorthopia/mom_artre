@@ -783,7 +783,7 @@ p.logged-in-as {
 /* Custom page content
 ----------------------------------------------- */
 .left-content-page {
-  max-width: 60%;
+  width: 60%;
   float: left;
   margin-right: 30px;
 }
@@ -853,7 +853,25 @@ p.logged-in-as {
 .custom-box-container .box {
   width: 300px;
 }
-
+.bold {
+  font-weight: 700;
+}
+.underline {
+  text-decoration: underline;
+}
+.subtitle-custom {
+  font-weight: 700;
+  font-size: 1.3em;
+  color: #1fa67a;
+}
+.arrow-bottom {
+  background-image: url('inc/img/arrow_bottom.png');
+  height: 100px;
+  width: 100px;
+  display: block;
+  background-size: 100%;
+  margin: 30px auto 0 auto;
+}
 
 /* =Attachment styling
 ----------------------------------------------- */
