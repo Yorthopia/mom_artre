@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the 4.5.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-04-24 11:18:31+0000\n"
+"PO-Revision-Date: 2016-04-27 06:09:44+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -87,7 +87,7 @@ msgstr "Un résultat trouvé. Utilisez les flèches haute et basse du clavier po
 #. logout URL
 #: wp-includes/comment-template.php:2158
 msgid "<a href=\"%1$s\" aria-label=\"%2$s\">Logged in as %3$s</a>. <a href=\"%4$s\">Log out?</a>"
-msgstr "<a href=\"%1$s\" aria-label=\"%2$s\">Connecté en tant que %3$s</a>. <a href=\"%4$s\">Déconnexionnbsp;?</a>"
+msgstr "<a href=\"%1$s\" aria-label=\"%2$s\">Connecté en tant que %3$s</a>. <a href=\"%4$s\">Déconnexion&nbsp;?</a>"
 
 #. translators: %s: user name
 #: wp-includes/comment-template.php:2161
@@ -575,7 +575,7 @@ msgstr "Confirmez-vous que le serveur de la base de données fonctionne correcte
 #. translators: %s: support forums URL
 #: wp-includes/wp-db.php:1552 wp-includes/wp-db.php:1656
 msgid "If you&#8217;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href=\"%s\">WordPress Support Forums</a>."
-msgstr "Si vous n&rsquo;êtes pas sûr(e) de connaître ces termes, vous devriez probablement contacter votre hébergeur. Si vous avez toujours besoin d&rsqup;aide, vous pouvez toujours vous rendre sur les <a href=\"%s\">forums d&rsquo;entraide de WordPress</a>."
+msgstr "Si vous n&rsquo;êtes pas sûr(e) de connaître ces termes, vous devriez probablement contacter votre hébergeur. Si vous avez toujours besoin d&rsquo;aide, vous pouvez toujours vous rendre sur les <a href=\"%s\">forums d&rsquo;entraide de WordPress</a>."
 
 #: wp-includes/wp-db.php:1641
 msgid "Error reconnecting to the database"
@@ -1200,7 +1200,7 @@ msgstr "Pour configurer votre mot de passe, rendez-vous à l'adresse suivante&nb
 
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:51
 msgid "Add or remove menu items"
-msgstr "Ajouter ou supprimer des éléments de menu"
+msgstr "Ajouter ou retirer des éléments de menu"
 
 #: wp-includes/class-wp-customize-nav-menus.php:393
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:54
@@ -1415,11 +1415,11 @@ msgstr "Retirer l&rsquo;image de couverture"
 #: wp-includes/media-template.php:1192
 msgctxt "media"
 msgid "Remove video track"
-msgstr "Supprimer la piste vidéo"
+msgstr "Retirer la piste vidéo"
 
 #: wp-includes/post.php:1464
 msgid "Remove featured image"
-msgstr "Supprimer l&rsquo;image à la Une"
+msgstr "Retirer l&rsquo;image à la Une"
 
 #: wp-includes/formatting.php:125
 msgctxt "Comma-separated list of replacement words in your language"
@@ -1428,11 +1428,11 @@ msgstr "&#8217;tain&#8217;t,&#8217;twere,&#8217;twas,&#8217;tis,&#8217;twill,&#8
 
 #: wp-includes/media-template.php:1044 wp-includes/media-template.php:1058
 msgid "Remove audio source"
-msgstr "Supprimer la source audio"
+msgstr "Retirer la source audio"
 
 #: wp-includes/media-template.php:1127 wp-includes/media-template.php:1139
 msgid "Remove video source"
-msgstr "Supprimer la source vidéo"
+msgstr "Retirer la source vidéo"
 
 #. translators: This is a comma-separated list of words that defy the syntax of
 #. quotations in normal use, for example...  'We do not have enough words yet'
@@ -4404,7 +4404,7 @@ msgstr "Page des articles"
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:141
 #: wp-includes/media-template.php:467 wp-includes/media.php:3344
 msgid "Remove"
-msgstr "Supprimer"
+msgstr "Retirer"
 
 #: wp-includes/script-loader.php:453
 msgid "Allowed Files"
@@ -6810,7 +6810,7 @@ msgstr "Insérer un lien"
 
 #: wp-includes/class-wp-editor.php:935
 msgid "Remove link"
-msgstr "Supprimer le lien"
+msgstr "Retirer le lien"
 
 #: wp-includes/class-wp-editor.php:1040
 msgid "Insert Page Break tag"

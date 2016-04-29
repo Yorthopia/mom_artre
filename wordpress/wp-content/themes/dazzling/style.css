@@ -1189,3 +1189,8 @@ p.logged-in-as {
 .full-width #primary{
     width: 100%;
 }
+.article_bu {
+  color: blue;
+  border: solid 1px;
+  padding: 10px;
+} 
