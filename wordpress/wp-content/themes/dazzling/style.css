@@ -1189,8 +1189,179 @@ p.logged-in-as {
 .full-width #primary{
     width: 100%;
 }
+
 .article_bu {
   color: blue;
   border: solid 1px;
   padding: 10px;
 } 
+
+/* Partenaires */
+.partenaires-particuliers
+{
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+}
+.logos-partenaires
+{
+  display: block;
+  float: left;
+  width: 20%;
+}
+.partenaires-descriptions
+{
+  display: block;
+  float: left;
+  width: 50%;
+}
+.trans-faire-img
+{
+  display: block;
+  background-image: url('inc/img/logo2x.png');
+  background-repeat: no-repeat;
+  background-size: 123px 44px;
+  width: 123px;
+  height: 44px;
+  margin: 5px;
+  float: left;
+}
+.ifac-img
+{
+  display: block;
+  background-image: url('inc/img/siteon0-e5814.png');
+  background-repeat: no-repeat;
+  background-size: 87px 65px;
+  width: 87px;
+  height: 65px;
+  margin: 5px;
+  float: left;
+}
+.paris-img
+{
+  display: block;
+  background-image: url('inc/img/ab535d_9ce3888512be4a0caac2108afc9aefc6.png');
+  background-repeat: no-repeat;
+  background-size: 90px 40px;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+  float: left;
+}
+.momartre-img
+{
+  display: block;
+  background-image: url('inc/img/titre_6195679.png');
+  background-repeat: no-repeat;
+  background-size: 160px 48px;
+  width: 160px;
+  height: 48px;
+  margin: 5px;
+  float: left;
+}
+.noisy-img
+{
+  display: block;
+  background-image: url('inc/img/logo_noisy_rose.jpg');
+  background-repeat: no-repeat;
+  background-size: 68px 68px;
+  width: 68px;
+  height: 68px;
+  margin: 5px;
+  float: left;
+}
+
+.partenaires-liste-container
+{
+  display: block;
+  height: 100px;
+  float: left;
+  width: 100%;
+}
+a
+{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.cent-img
+{
+  background-image: url('inc/img/logo_cent4.png');
+  background-repeat: no-repeat;
+  background-size: 108px 73px;
+  width: 108px;
+  height: 73px;
+  margin: 5px;
+  float: left;
+}
+.theatre-img
+{
+  background-image: url('inc/img/ab535d_cb87a641b3624d2aa0de4c42f42bef83.jpg');
+  background-repeat: no-repeat;
+  background-size: 107px 49px;
+  width: 107px;
+  height: 49px;
+  margin: 5px;
+  float: left;
+}
+.plustard-img
+{
+  background-image: url('inc/img/ab535d_05e1a7e3023a4f148f8fdff4c79f24ec.png');
+  background-repeat: no-repeat;
+  background-size: 120px 62px;
+  width: 120px;
+  height: 62px;
+  margin: 5px;
+  float: left;
+}
+.maisondemai-img
+{
+  background-image: url('inc/img/ab535d_bee8aace81e24b0abe39c99d1a3105c5.png');
+  background-repeat: no-repeat;
+  background-size: 123px 53px;
+  width: 123px;
+  height: 53px;
+  margin: 5px;
+  float: left;
+}
+.ecolo-img
+{
+  background-image: url('inc/img/ab535d_2bff32ac03b9425db8eaca5e0bfe7e4e.jpg');
+  background-repeat: no-repeat;
+  background-size: 80px 80px;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  float: left;
+}
+.ecole-img
+{
+  background-image: url('inc/img/ab535d_9ba10e89b34a46d7820786815d8833b4.png');
+  background-repeat: no-repeat;
+  background-size: 85px 92px;
+  width: 85px;
+  height: 92px;
+  margin: 5px;
+  float: left;
+}
+.animateur-img
+{
+  background-image: url('inc/img/ab535d_090f485c58ec444ba22167a8374fd531.png');
+  background-repeat: no-repeat;
+  background-size: 144px 43px;
+  width: 144px;
+  height: 43px;
+  margin: 5px;
+  float: left;
+}
+.chatillon-img
+{
+  background-image: url('inc/img/ab535d_3d8595115c2a4fba8e69c285f70a8988.jpg');
+  background-repeat: no-repeat;
+  background-size: 76px 98px;
+  width: 76px;
+  height: 98px;
+  margin: 5px;
+  float: left;
+}
