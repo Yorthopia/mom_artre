@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Image Slider (Lite)\n"
-"POT-Creation-Date: 2016-03-13 10:35+0700\n"
-"PO-Revision-Date: 2016-03-13 10:36+0700\n"
+"POT-Creation-Date: 2016-05-27 12:50+0700\n"
+"PO-Revision-Date: 2016-05-27 12:51+0700\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -101,6 +101,18 @@ msgstr "Acties"
 #: easy-slider-widget-lite.php:414 inc/ewic-metaboxes.php:358
 msgid "Settings"
 msgstr "Instellingen"
+
+#: easy-slider-widget-lite.php:436
+msgid "Donate"
+msgstr "Doneer"
+
+#: easy-slider-widget-lite.php:437
+msgid "Tutorials"
+msgstr "Handleidingen"
+
+#: easy-slider-widget-lite.php:438
+msgid "Rate Us"
+msgstr "Beoordeel ons"
 
 #: inc/ewic-metaboxes.php:13
 msgid "AMAZING Pro Version DEMO"

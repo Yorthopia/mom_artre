@@ -1,14 +1,16 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
-"2:1));\n"
 "Project-Id-Version: Image Slider (Lite)\n"
-"POT-Creation-Date: 2016-04-22 18:14+0700\n"
-"PO-Revision-Date: 2016-04-22 18:24+0700\n"
+"POT-Creation-Date: 2016-05-27 12:52+0700\n"
+"PO-Revision-Date: 2016-05-27 12:53+0700\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: ro_RO\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1));\n"
 "X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: easy-slider-widget-lite.php\n"
@@ -16,8 +18,6 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Last-Translator: \n"
-"Language: ro_RO\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -102,6 +102,18 @@ msgstr "Acțiuni"
 #: easy-slider-widget-lite.php:414 inc/ewic-metaboxes.php:358
 msgid "Settings"
 msgstr "Setari"
+
+#: easy-slider-widget-lite.php:436
+msgid "Donate"
+msgstr "Dona"
+
+#: easy-slider-widget-lite.php:437
+msgid "Tutorials"
+msgstr "Tutoriale"
+
+#: easy-slider-widget-lite.php:438
+msgid "Rate Us"
+msgstr "Ne Evalua"
 
 #: inc/ewic-metaboxes.php:13
 msgid "AMAZING Pro Version DEMO"

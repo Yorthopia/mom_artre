@@ -172,7 +172,7 @@ echo $enobuy;
 /*-------------------------------------------------------------------------------*/
 function ewic_prodemo_metabox () {
 	$enobuy = '<div style="text-align:center;">';
-	$enobuy .= '<a id="ewicdemotableclr" style="outline: none !important;" target="_blank" href="https://ghozy.link/9vlg3"><img class="ewichvrbutton" src="'.plugins_url( 'images/view-demo-button.jpg' , dirname(__FILE__) ).'" width="232" height="60" alt="Pro Version Demo" ></a>';
+	$enobuy .= '<a id="ewicdemotableclr" style="outline: none !important;" target="_blank" href="https://ghozy.link/9vlg3"><img class="ewichvrbutton" src="'.plugins_url( 'images/view-demo-button.jpg' , dirname(__FILE__) ).'" width="232" height="60" alt="Demo Pro Version" ></a>';
 	$enobuy .= '</div>';
 echo $enobuy;	
 }

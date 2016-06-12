@@ -6,7 +6,7 @@ Description: Image Slider (Lite) - Displaying your image as slider in post/page/
 Author: GhozyLab, Inc.
 Text Domain: image-slider-widget
 Domain Path: /languages
-Version: 1.1.83
+Version: 1.1.85
 Author URI: http://www.ghozylab.com/plugins/
 */
 
@@ -42,7 +42,7 @@ define( 'EWIC_API_URL', 'http://secure.ghozylab.com/' );
 if (!defined("EWIC_PLUGIN_SLUG")) define("EWIC_PLUGIN_SLUG","image-slider-widget/easy-slider-widget-lite.php");
 
 if ( !defined( 'EWIC_VERSION' ) ) {
-	define( 'EWIC_VERSION', '1.1.83' );
+	define( 'EWIC_VERSION', '1.1.85' );
 	}
 
 if ( !defined( 'EWIC_NAME' ) ) {
@@ -420,4 +420,24 @@ function ewic_settings_link( $link, $file ) {
 
 add_filter( 'plugin_action_links', 'ewic_settings_link', 10, 2 );
 
-?>
+
+/*
+|--------------------------------------------------------------------------
+| Plugin List Menu @since 1.1.85
+|--------------------------------------------------------------------------
+*/
+function ewic_settings_link_rowmeta( $link, $file ) {
+	static $this_plugin;
+	
+	if ( !$this_plugin )
+		$this_plugin = plugin_basename( __FILE__ );
+
+	if ( $file == $this_plugin ) {
+		$link[] = '<a href="https://ghozy.link/rs3bq" target="_blank"><span class="dashicons dashicons-heart"></span>&nbsp;' . __( 'Donate', 'image-slider-widget' ) . '</a>';
+		$link[] = '<a href="https://www.youtube.com/watch?v=-W8u_t05K2Y" target="_blank"><span class="dashicons dashicons-editor-help"></span>&nbsp;' . __( 'Tutorials', 'image-slider-widget' ) . '</a>';
+		$link[] = '<a href="https://wordpress.org/support/view/plugin-reviews/image-slider-widget?filter=5" target="_blank"><span class="dashicons dashicons-star-filled"></span>&nbsp;' . __( 'Rate Us', 'image-slider-widget' ) . '</a>';
+	}
+	
+	return $link;
+}
+add_filter( 'plugin_row_meta', 'ewic_settings_link_rowmeta', 10, 2 );

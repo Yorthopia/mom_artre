@@ -3,8 +3,8 @@ Contributors: GhozyLab
 Donate link: https://ghozy.link/rs3bq
 Tags: image, slider, image slider, plugin slider, slider plugin, slider images, best slider, best image slider, gallery slider, slideshow images, slideshow image, wordpress slider, images, free slider, image slider plugin, wp slider, best slider plugin, meta slider, coin slider, facebook, google, wordpress, twitter, image slideshow, images slider, jquery slider, jquery slideshow, photo slider, picture slider, plugin, plugins, admin, page, post, posts, responsive slider, responsive slideshow, seo, slide, slider shortcode, slider widget, slides, slideshow, slideshow plugin, widget, widget slider, revolution slider, layer slider, layerslider, slider revolution, meta slider, shortcode, widget slideshow, widgets, wordpress slideshow, carousel, carousel slider, slider image, wow slider, nivo slider, soliloquy, meteor slides
 Requires at least: 3.5
-Tested up to: 4.5
-Stable tag: 1.1.83
+Tested up to: 4.5.2
+Stable tag: 1.1.85
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -193,10 +193,15 @@ There are no complicated instructions for using Image Slider plugin because this
 
 == Upgrade Notice ==
 
-= 1.1.83 =
+= 1.1.85 =
 IMPORTANT! SECURITY BUGS FIX, PLEASE UPDATE NOW!
 
 == Changelog ==
+
+= 1.1.85 =
+* Updated : All Languages
+* Tweak : Menu on plugin list
+* Timestamp : 04/20/16 07:53:22
 
 = 1.1.83 =
 * Updated : Wordpress 4.5 compatibility

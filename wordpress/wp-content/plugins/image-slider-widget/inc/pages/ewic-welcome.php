@@ -85,7 +85,7 @@ class EWIC_Welcome {
 	public function ewic_admin_head() {
 		remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-changelog' );
 		remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-getting-started' );
-		remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-free-plugins' );
+		//remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-free-plugins' );
 		remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-premium-plugins' );
 		remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-addons' );
 		remove_submenu_page( 'edit.php?post_type=easyimageslider', 'ewic-earn-xtra-money' );
