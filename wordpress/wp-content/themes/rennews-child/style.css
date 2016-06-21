@@ -12,7 +12,6 @@ Tags: two-columns, left-sidebar, right-sidebar, responsive-layout, custom-backgr
 
 @import url("../mh-newsdesk-lite/style.css");
 
-
 @media screen and (max-width: 700px) {
 
     .content-lead-title {
@@ -158,10 +157,9 @@ Tags: two-columns, left-sidebar, right-sidebar, responsive-layout, custom-backgr
 
 }.logo-title {
 
-     color: #e41609;
      text-align: center;
 
- }
+}
 
 .logo-tagline {
 
@@ -176,5 +174,71 @@ Tags: two-columns, left-sidebar, right-sidebar, responsive-layout, custom-backgr
 }
 
 
-
-
+.mh-header {
+    background-color: #189395;    
+}
+.logo-wrap img {
+    float: left;
+    margin-left: 20%; 
+}
+.logo-wrap .logo h2 {
+    font-family: impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.main-nav {
+    background-color: #37BDBF;
+}
+.main-nav li {
+    border-color: white;
+}
+.main-nav li:hover {
+    background-color: #A4DF68;
+}
+ul .sub-menu li {
+    background-color: #37BDBF;
+}
+.main-nav ul ul li {
+    width: 100%;
+}
+.mh-footer {
+    background-color: #672C8E;
+}
+.page-title {
+    font: normal normal normal 45px/1.1em impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
+    color: #672C8E;
+}
+#main-content {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+.toDL {
+    margin: 0;
+}
+#fscf_required1{
+    display: none;
+}
+#Fpreview {
+    //border: solid 1px;
+    margin: 10px;
+}
+#Fpreview a , .Spreview a{
+    float: right;
+    padding: 5px;
+}
+#art_container > .Spreview
+{
+    display: inline-block;
+}
+#art_container
+{
+    text-align: center;
+    margin: 0px auto;
+    width: 100%;
+}
+.Spreview {
+    width: 345px;
+    //border: solid 1px;
+    padding: 28px;
+}   
