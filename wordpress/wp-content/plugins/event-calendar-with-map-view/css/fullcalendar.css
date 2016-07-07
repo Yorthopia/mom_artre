@@ -1067,11 +1067,7 @@ be a descendant of the grid when it is being dragged.
 .fc-time-grid-event .fc-resizer:after {
 	content: "=";
 }
-
 #calendar {
-		max-width: 1000px;
-		margin: 0 auto;
-		width: 100%;
+	width: 90%;
+    margin: 0 auto;
 }
-.entry-content{ max-width: 1000px!important;}
-.fc-widget-header table {margin:0}

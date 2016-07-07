@@ -25,7 +25,7 @@ Tags: two-columns, left-sidebar, right-sidebar, responsive-layout, custom-backgr
 .button span {
 
     background: #FE0404;
-    font-family: 'Open Sans';
+    font-family: 'proxima nova';
 
 }
 
@@ -61,7 +61,7 @@ Tags: two-columns, left-sidebar, right-sidebar, responsive-layout, custom-backgr
     text-align: center;
     padding: 8px 0;
     color: #040404;
-    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-family: 'proxima nova', Helvetica, Arial, sans-serif;
     font-size: 20px;
 
 }
@@ -71,7 +71,7 @@ Tags: two-columns, left-sidebar, right-sidebar, responsive-layout, custom-backgr
     text-align: center;
     padding: 8px 0;
     color: #040404;
-    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-family: 'proxima nova', Helvetica, Arial, sans-serif;
     font-size: 20px;
 
 }
@@ -104,7 +104,7 @@ Tags: two-columns, left-sidebar, right-sidebar, responsive-layout, custom-backgr
 
 .widget-list > li {
 
-    font-family: 'Open Sans';
+    font-family: 'proxima nova';
     font-style: normal;
     font-weight: 600;
     line-height: 1.4;
@@ -132,19 +132,19 @@ Tags: two-columns, left-sidebar, right-sidebar, responsive-layout, custom-backgr
 
 .main-nav li a {
 
-    font-family: 'Open Sans';
+    font-family: 'proxima nova';
 
 }
 
 .ticker-title {
 
-    font-family: 'Open Sans';
+    font-family: 'proxima nova';
 
 }
 
 .ticker-item {
 
-    font-family: 'Open Sans';
+    font-family: 'proxima nova';
 
 }
 
@@ -152,7 +152,7 @@ Tags: two-columns, left-sidebar, right-sidebar, responsive-layout, custom-backgr
 
     font-size: 24px;
     line-height: 28px;
-    font-family: 'Open Sans';
+    font-family: impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
     font-weight: 600;
 
 }.logo-title {
@@ -179,9 +179,9 @@ Tags: two-columns, left-sidebar, right-sidebar, responsive-layout, custom-backgr
 }
 .logo-wrap img {
     float: left;
-    margin-left: 20%; 
+    margin-left: 15%; 
 }
-.logo-wrap .logo h2 {
+.logo h2 {
     font-family: impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
     font-size: 25px;
     color: white;
@@ -211,7 +211,6 @@ ul .sub-menu li {
 #main-content {
     margin: auto;
     width: 100%;
-    text-align: center;
 }
 .toDL {
     margin: 0;
@@ -220,10 +219,10 @@ ul .sub-menu li {
     display: none;
 }
 #Fpreview {
-    //border: solid 1px;
+    text-align: center;
     margin: 10px;
 }
-#Fpreview a , .Spreview a{
+.Spreview a{
     float: right;
     padding: 5px;
 }
@@ -239,6 +238,44 @@ ul .sub-menu li {
 }
 .Spreview {
     width: 345px;
-    //border: solid 1px;
     padding: 28px;
 }   
+.fc-widget-header table {margin:0}
+
+.button_inscr {
+    text-align: center;
+    background-color: #189395;
+    width: 93%;
+    height: 45px;
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 40px;
+    margin-bottom: 25px;
+}
+.button_inscr a {
+    color: white;
+}
+.button_inscr a:hover {
+    text-decoration: none;
+}
+.mh-sidebar img {
+    max-width: 345px;
+    border-radius: 40px;
+}
+.mh-sidebar h2 {
+    text-align: center;
+}
+.formCal {
+    width: 110px;
+    background-color: #A4DF68;
+    padding: 9px;
+    color: white;
+}
+
+.formGlob {
+    border-bottom: 3px solid rgba(103, 44, 142, 1);
+    min-height: 170px;
+}
+#sommairePic {
+    width: 65%;
+}
