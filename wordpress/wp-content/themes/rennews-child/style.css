@@ -99,7 +99,7 @@ Tags: two-columns, left-sidebar, right-sidebar, responsive-layout, custom-backgr
 .entry-title, .page-title {
 
     text-transform: none;
-
+    font-size: 2.5em;
 }
 
 .widget-list > li {
@@ -150,7 +150,7 @@ Tags: two-columns, left-sidebar, right-sidebar, responsive-layout, custom-backgr
 
 .entry-title, .page-title {
 
-    font-size: 24px;
+    font-size: 2.5em;
     line-height: 28px;
     font-family: impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
     font-weight: 600;
@@ -205,12 +205,13 @@ ul .sub-menu li {
     background-color: #672C8E;
 }
 .page-title {
-    font: normal normal normal 45px/1.1em impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
+    font: normal normal normal 2.2em impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
     color: #672C8E;
 }
 #main-content {
     margin: auto;
     width: 100%;
+    color: #63605F;
 }
 .toDL {
     margin: 0;
@@ -261,6 +262,7 @@ ul .sub-menu li {
 .mh-sidebar img {
     max-width: 345px;
     border-radius: 40px;
+    margin: auto;
 }
 .mh-sidebar h2 {
     text-align: center;
@@ -278,4 +280,13 @@ ul .sub-menu li {
 }
 #sommairePic {
     width: 65%;
+}
+#mainDiv {
+    font-size: 0.8em;
+}
+.formateur {
+    margin-bottom: 20px;
+}
+.mh-sidebar {
+    margin-left: 0px;
 }
